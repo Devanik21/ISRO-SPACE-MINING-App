@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load("C:\\imp\\1. ISRO\\RF_mining_model.pkl")
+model = joblib.load("RF_mining_model.pkl")
 
 # Title of the web app
 st.title("Mining Site Prediction")
