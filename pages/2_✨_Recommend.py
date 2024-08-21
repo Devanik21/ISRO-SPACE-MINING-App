@@ -4,15 +4,14 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
-import pickle
+import joblib
 
 import streamlit as st
 
 st.set_page_config(page_title="Mining Site Recommendation", page_icon="✨")
 
 def recommend_site(user_preferences, top_n = 5):
-    with open('space_mining_model.pkl', 'rb') as file:
-        model = pickle.load(file)
+    model = joblib.load("space_mining_model.pkl")
     df = pd.read_csv("space_mining_dataset_large.csv")
     features = df[['iron', 'nickel', 'water_ice', 'other_minerals', 'sustainability_index', 'efficiency_index', 'distance_from_earth']]
     scaler = StandardScaler()
@@ -75,7 +74,7 @@ def show_recommend_page():
     ok = st.button("Recommend")
     if ok:
         recommended_site = recommend_site(user_preferences)
-        st.write("Here's top 5 mining sites suitable for your needs:")
+        st.markdown("""### Here's top 5 mining sites suitable for your needs:""")
         st.table(recommended_site)
 
 show_recommend_page()
