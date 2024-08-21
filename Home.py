@@ -22,7 +22,7 @@ with st.sidebar:
             ## ISRO Space Exploration Hackathon
 
             This project is a submission for [ISRO Space Exploration Hackathon](https://dorahacks.io/hackathon/isro-space-exploration-hackathon/)
-            and it was built by Desh Deepak Kant, 
+            and it was built by Team PiklPython (Desh, Devanik, Shivam).
             """
         )
 
