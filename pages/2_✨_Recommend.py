@@ -77,6 +77,5 @@ def show_recommend_page():
             recommended_site = recommend_site(user_preferences)
         st.markdown("""### Here's top 5 mining sites suitable for your needs:""")
         st.table(recommended_site)
-        st.snow()
 
 show_recommend_page()

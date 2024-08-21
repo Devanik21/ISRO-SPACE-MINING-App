@@ -30,6 +30,8 @@ st.markdown(
     """
     <div align="center">
 
+    <img height="150" width="150" src="https://github.com/user-attachments/assets/53ba29b5-70a1-49db-901c-eb849f2802f1" />
+
     ## 💫 Stellar Minesite
 
     <samp>
