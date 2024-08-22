@@ -51,10 +51,13 @@ st.markdown("""
 
     **👈 Select a model from the sidebar** to see it in action!
     ### 🚀 The Prediction Model
-    - brief description line
-    - brief description line
-    - brief description line
-    - brief description line
+    - The prediction model analyzes essential features such as distance from Earth, 
+    mineral composition, estimated value, and sustainability indices to predict potential
+    mining sites.
+    - Using advanced ML algorithm Random Forest, it generates accurate predictions based on the input features.
+    - The model allows users to enter relevant data, which upon processing generates customized 
+    mining site recommendation.
+    - By predicting potential mining sites, the model provides actionable insights that can guide strategic decision-making for space.
 
     ### ✨ The Recommendation Model
     - The recommendation model evaluates space mining sites 
