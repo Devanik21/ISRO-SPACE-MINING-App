@@ -12,13 +12,13 @@ def show_decide_page ():
     st.sidebar.header("Input Features")
 
     Distance_from_Earth = st.sidebar.slider("Distance from Earth (M km)", 1.0, 1000.0, 100.0)
-    Iron = st.sidebar.slider("Iron (%)", 0.0, 100.0, 50.0)
-    Nickel = st.sidebar.slider("Nickel (%)", 0.0, 100.0, 50.0)
-    Water_Ice = st.sidebar.slider("Water Ice (%)", 0.0, 100.0, 50.0)
-    Other_Minerals = st.sidebar.slider("Other Minerals (%)", 0.0, 100.0, 50.0)
-    Estimated_Value = st.sidebar.slider("Estimated Value (B USD)", 0.0, 500.0, 100.0)
-    Sustainability_Index = st.sidebar.slider("Sustainability Index", 0.0, 100.0, 0.5)
-    Efficiency_Index = st.sidebar.slider("Efficiency Index", 0.0, 100.0, 0.5)
+    Iron = st.sidebar.slider("Iron (%)", 0.0, 100.0, 3.54)
+    Nickel = st.sidebar.slider("Nickel (%)", 0.0, 100.0, 5.31)
+    Water_Ice = st.sidebar.slider("Water Ice (%)", 0.0, 100.0, 1.07)
+    Other_Minerals = st.sidebar.slider("Other Minerals (%)", 0.0, 100.0, 10.97)
+    Estimated_Value = st.sidebar.slider("Estimated Value (B USD)", 0.0, 500.0, 104.38)
+    Sustainability_Index = st.sidebar.slider("Sustainability Index", 0.0, 100.0, 57.31)
+    Efficiency_Index = st.sidebar.slider("Efficiency Index", 0.0, 100.0, 63.32)
 
     data = {
         'Distance from Earth (M km)': Distance_from_Earth,
