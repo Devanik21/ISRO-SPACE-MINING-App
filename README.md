@@ -7,6 +7,8 @@
 </div>
 Stellar Minesite is a Machine Learning driven web platform for exploring & analyzing data on mining sites, and generating recommendations based on user input.
 
+- [Go to the website](https://stellar-minesite.vercel.app/)
+
 ### ▲ Development
 
 - Create an environment & install the requirements using your favorite Python packaging tool:
