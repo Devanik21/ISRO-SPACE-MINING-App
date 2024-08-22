@@ -2,12 +2,10 @@
 
   <img height="150" width="150" src="https://github.com/user-attachments/assets/53ba29b5-70a1-49db-901c-eb849f2802f1" />
 
-  # 💫 Stellar Minesite
+  # 💫 [Stellar Minesite](https://stellar-minesite.vercel.app/)
 
 </div>
 Stellar Minesite is a Machine Learning driven web platform for exploring & analyzing data on mining sites, and generating recommendations based on user input.
-
-- [Go to the website](https://stellar-minesite.vercel.app/)
 
 ### ▲ Development
 
